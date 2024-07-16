@@ -1,0 +1,8 @@
+@media only screen and(max-width:320px){
+    .flip_card{
+        width: 50px;
+    }
+    .col-md-6.mt-5 {
+        color: red !important;
+    }
+}

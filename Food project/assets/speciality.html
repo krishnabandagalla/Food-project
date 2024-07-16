@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/stylesheet.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+        <!-- <style>
+            /* login starts */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ /* .loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+
+ } */
+ .form-box{
+    position: relative;
+    width: 400px;
+    height: 480px;
+    /* background-color: rgb(20, 220, 120) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h2{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+ }
+ .inputbox{
+    position: relative;
+    margin: 30px 0px;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+ }
+ .inputbox label{
+    position: absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-54%);
+    color: #fff;
+    font-size: 15px;
+    pointer-events: none;
+    transition: 0.33s;
+
+ }
+ input:focus ~ label,
+ input:focus ~ :valid{
+    top: -5px;
+
+
+ }
+ button {
+    padding: 5px;
+    border-radius: 8px;
+    width: 95px;
+    color: white;
+    border-style: none;
+    background-color: #1e83ffeb;
+    float: right;
+}
+
+ .inputbox input{
+    width: 100%;
+    height:50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0px 35px 0px 5px;
+    color: white;
+ }
+ img.img-fluid {
+    margin-left: 24px;
+    height: 82vh;
+    border-radius: 20px;
+}
+.container {
+    margin-top: 78px;
+    margin-left: 131px;
+}
+body{
+    background: url(/assets/images/bg_img.jpg)no-repeat;
+    background-size: cover;
+}
+.userpara {
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: -7%;
+}
+span.link {
+    margin-left: 29%;
+    font-size: 12px;
+}
+/* .row {
+    background-color: rebeccapurple;
+} */
+ /* login ends */
+        </style> -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar-blue bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="sai.html">Home</a>
+                    <a class="nav-link" href="speciality.html">Speciality</a>
+                    <a class="nav-link" href="popular.html">Popular</a>
+                    <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                    <a class="nav-link active" aria-current="page" href="review.html">Review</a>
+                    <a class="nav-link active" aria-current="page" href="order.html">Order</a>
+                      <a class="nav-link active" aria-current="page" href="signup.html">Signup</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="flip_card">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="mt-5">Special Dishes</h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2">
+                        <div class="card-text">
+                            <h2>Tasty Burger</h2>
+                            <i class="fa-solid fa-burger spe"></i>
+                            <p>Mouse over this text to reveal the image.</p>
+                        </div>
+                        <img class="card-image" src="../assets/images/burger1.jpg" alt="Placeholder Image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2 ">
+                        <div class="card-text">
+                            <h2>Tasty Pizza</h2>
+                            <i class="fa-solid fa-pizza-slice spe"></i>
+                            <p>Mouse over this text to reveal the image.</p>
+                        </div>
+                        <img class="card-image" src="../assets/images/pizzas.jpg" alt="Placeholder Image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2">
+                        <div class="card-text">
+                            <h2>Cold Ice-Cream</h2>
+                            <i class="fa-solid fa-ice-cream spe"></i>
+                            <p>Mouse over this text to reveal the image.</p>
+                        </div>
+                        <img class="card-image" src="../assets/images/cold ice2.jpg" alt="Placeholder Image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2">
+                        <div class="card-text">
+                            <h2>Cold Drink</h2>
+                            <i class="fa-solid fa-bottle-water spe"></i>
+                            <p>Mouse over this text to reveal the image.</p>
+                        </div>
+                        <img class="card-image" src="../assets/images/cold drinks.jpeg" alt="Placeholder Image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2">
+                        <div class="card-text">
+                            <h2>Tasty Sweets</h2>
+                            <i class="fa-solid fa-cake-candles spe"></i>
+                            <p>Mouse over this text to reveal the image.</p>
+                        </div>
+                        <img class="card-image" src="../assets/images/sweetss.jpeg" alt="Placeholder Image">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2">
+                        <div class="card-text">
+                            <h2>Healthy Breakfast</h2>
+                            <i class="fa-solid fa-mug-hot spe"></i>
+                            <p>Mouse over this text to reveal the image.</p>
+                        </div>
+                        <img class="card-image" src="../assets/images/health.jpg" alt="Placeholder Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       <!-- footer -->
+       <section class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <p class="foot1">Enter Your Email*</p>
+                    <hr>
+                    <button type="text" class="foot">Subscribe</button>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h3>Contact</h3>
+                    <p class="foot1">Phone +91xxxxxxxxx</p>
+                    <p class="foot1">Email:Yourmail@example.com</p>
+                    <p class="foot1">Address:1234 Street Name City99999</p>
+                    <div class="ic">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube "></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h3>Service</h3>
+                    <p class="foot2"><i class="fa-solid fa-caret-right"></i> Speciality</p>
+                    <p class="foot2"><i class="fa-solid fa-caret-right"></i> Popular</p>
+                    <p class="foot2"><i class="fa-solid fa-caret-right"></i> Gallery</p>
+                    <p class="foot2"><i class="fa-solid fa-caret-right"></i> Review</p>
+                    <p class="foot2"><i class="fa-solid fa-caret-right"></i> Order</p>
+  
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h4>Links</h4>
+                    <p class="foot3"><i class="fa-brands fa-firefox"></i> wwww.food.com</p>
+  
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
